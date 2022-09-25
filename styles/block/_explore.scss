@@ -1,0 +1,24 @@
+.b-explore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+    background-color: var(--beige);
+
+    .b-explore__card {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        flex-direction: column;
+        width: 240px;
+        height: 320px;
+        background-color: white;
+    }
+
+    .b-explore__img {
+        padding: 10px;
+    }
+}

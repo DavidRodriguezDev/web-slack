@@ -1,0 +1,38 @@
+.b-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--beige);
+    padding-top: 20px;
+
+    .b-info__box {
+        padding-top: 40px;
+    }
+
+    .b-info__img {
+        margin-bottom: 30px;
+    }
+
+    .b-info__img--letf {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .b-info__title {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    .b-info__p {
+        margin-bottom: 10px;
+    }
+
+    .b-info__text {
+        padding: 20px;
+    }
+
+    .b-info__a {
+        text-decoration: none;
+    }
+}

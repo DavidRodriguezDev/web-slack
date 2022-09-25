@@ -1,0 +1,29 @@
+.b-welcome {
+    background-color: var(--morado);
+    clip-path: ellipse(105% 100% at center top);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+
+    .b-welcome__buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .b-button {
+        padding: 20px;
+        width: 90%;
+        margin: 10px;
+        border-radius: 5px;
+        border-color: var(--morado);
+    }
+    .b-border-white {
+        border: 2px solid white;
+    }
+}

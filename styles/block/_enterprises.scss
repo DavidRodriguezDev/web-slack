@@ -1,0 +1,21 @@
+.b-enterprises {
+    background-color: var(--beige);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 0;
+
+    .b-entreprises__logos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 200px;
+    }
+
+    .b-logo {
+        width: 20%;
+        height: 100px;
+        margin: 20px;
+    }
+}

@@ -1,0 +1,52 @@
+.b-percentage {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+
+    .b-percentage--buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .b-button {
+        padding: 20px;
+        width: 90%;
+        margin: 10px;
+        border-radius: 5px;
+        border-color: var(--morado);
+    }
+
+    .b-percentage__numbers {
+        width: 50%;
+        margin: 20px;
+    }
+
+    .b-percentage__p {
+        margin: 20px;
+    }
+
+    
+}
+
+.b-video__yt {
+    border-radius: 0 110px 110px 0;
+    width: 95%;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.b-video__quote {
+    padding: 20px;
+}
+
+.b-p__margin {
+    margin: 10px;
+}

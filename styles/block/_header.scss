@@ -1,0 +1,54 @@
+.b-header {
+    background-color: var(--morado);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-around;
+    text-align: center;
+
+    .b-header__head {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 20px;
+    }
+
+    .b-icon {
+        font-size: 20px;
+        color: white;
+    }
+
+    .b-header__img {
+        width: 90px;
+        height: 30px;
+    }
+
+    .b-header__text {
+        height: 200px;
+        margin: 0 20px;        
+    }
+
+    .b-header--h1 {
+        margin-bottom: 10px;
+    }
+
+    .b-container--buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 90px 0 40px 0;
+        width: 100%;
+    }
+
+    .b-button {
+        padding: 20px;
+        width: 90%;
+        margin: 10px;
+        border-radius: 5px;
+    }
+
+    .b-chat__img {
+        width: 100%;
+    }
+}
