@@ -6,6 +6,10 @@
   --azul: #4285f4;
 }
 
+body {
+  position: relative;
+}
+
 .back-azul {
   background-color: var(--azul);
 }
@@ -139,6 +143,22 @@
 }
 .b-header .b-chat__img {
   width: 100%;
+}
+
+/*CAJA CON MANO*/
+.b-box-hand {
+  position: fixed;
+  top: 670px;
+  left: 290px;
+  width: 60px;
+  height: 60px;
+  background-color: var(--morado);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--amarillo);
+  border-radius: 4px;
+  font-size: 2rem;
 }
 
 .b-enterprises {
