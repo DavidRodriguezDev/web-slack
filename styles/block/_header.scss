@@ -6,7 +6,7 @@
     align-items: space-around;
     text-align: center;
 
-    .b-header__head {
+    &__head {
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -18,17 +18,17 @@
         color: white;
     }
 
-    .b-header__img {
+    &__img {
         width: 90px;
         height: 30px;
     }
 
-    .b-header__text {
+    &__text {
         height: 200px;
         margin: 0 20px;        
     }
 
-    .b-header--h1 {
+    &--h1 {
         margin-bottom: 10px;
     }
 

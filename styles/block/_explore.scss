@@ -8,7 +8,7 @@
     text-align: center;
     background-color: var(--beige);
 
-    .b-explore__card {
+    &__card {
         display: flex;
         justify-content: space-around;
         text-align: center;
@@ -18,7 +18,7 @@
         background-color: white;
     }
 
-    .b-explore__img {
+    &__img {
         padding: 10px;
     }
 }

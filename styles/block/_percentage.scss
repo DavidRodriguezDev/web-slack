@@ -8,7 +8,7 @@
     margin-top: 30px;
     text-align: center;
 
-    .b-percentage--buttons {
+    &--buttons {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -24,12 +24,12 @@
         border-color: var(--morado);
     }
 
-    .b-percentage__numbers {
+    &__numbers {
         width: 50%;
         margin: 20px;
     }
 
-    .b-percentage__p {
+    &__p {
         margin: 20px;
     }
 

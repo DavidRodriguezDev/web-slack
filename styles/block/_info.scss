@@ -6,33 +6,33 @@
     background-color: var(--beige);
     padding-top: 20px;
 
-    .b-info__box {
+    &__box {
         padding-top: 40px;
     }
 
-    .b-info__img {
+    &__img {
         margin-bottom: 30px;
     }
 
-    .b-info__img--letf {
+    &__img--letf {
         display: flex;
         justify-content: flex-end;
     }
 
-    .b-info__title {
+    &__title {
         font-size: 2rem;
         margin-bottom: 10px;
     }
 
-    .b-info__p {
+    &__p {
         margin-bottom: 10px;
     }
 
-    .b-info__text {
+    &__text {
         padding: 20px;
     }
 
-    .b-info__a {
+    &__a {
         text-decoration: none;
     }
 }

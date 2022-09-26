@@ -4,32 +4,34 @@
     margin-top: 40px;
     padding: 20px;
 
-    .b-footer__img {
+    &__img {
         width: 110px;
         height: 40px;
     }
 
-    .b-footer__a {
+    &__a {
         text-decoration: none;
     }
 
-    .b-footer__links {
+    &__links {
         display: flex;
         justify-content: space-around;
         margin-top: 20px;
     }
 
-    .b-links--size {
+    &--size {
         font-size: 20px;
     }
-    
-}
 
-.b-footer__list {
+    &__list {
     
-    margin: 15px;
-
-    .b-footer__li {
-        list-style: none;
+        margin: 15px;
     }
+    
+    &__li {
+            list-style: none;
+    }
+    
+    
 }
+
