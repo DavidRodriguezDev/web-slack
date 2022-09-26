@@ -1,3 +1,4 @@
+
 .b-info {
     display: flex;
     flex-direction: column;
@@ -34,5 +35,23 @@
 
     &__a {
         text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .b-info {
+        
+        &__box {
+            display: flex;
+            width: 65%;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        &__text {
+            width: 50%;
+        }
+
+
     }
 }

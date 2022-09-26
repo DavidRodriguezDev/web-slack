@@ -15,7 +15,7 @@
 
     &__links {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         margin-top: 20px;
     }
 
@@ -31,7 +31,11 @@
     &__li {
             list-style: none;
     }
-    
-    
+     
 }
 
+@media screen and (min-width: 576px) {
+    .b-footer {
+        flex-direction: row;
+    }
+}

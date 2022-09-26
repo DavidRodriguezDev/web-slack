@@ -22,3 +22,13 @@
         padding: 10px;
     }
 }
+
+@media screen and (min-width: 576px) {
+    .b-explore {
+        padding: 2%;
+    }
+
+    .b-explore__card {
+        margin-top: 20px;
+    }
+}
